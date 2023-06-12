@@ -1,22 +1,2 @@
-feature:
-  head-branch: '^feature/'
-
-fix:
-  head-branch: '^fix/'
-
-chore:
-  head-branch: '^chore/'
-
-docs:
-  head-branch: '^docs/'
-  any: '**/*.md'
-
-release:
-  base-branch: 'main'
-
-test:
-  all:
-    base-branch: 'main'
-    head-branch: '^feature'
-  any:
-    changed-files: '**/*.test.*'
+label1:
+- example1/*
